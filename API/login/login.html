@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top Security - Login</title>
+    <link rel="shortcut icon" href="assets/img/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+    <script src="/assets/js/jquery-visible.min.js"></script>
+    <script src="/assets/js/jquery-carousel.min.js"></script>
+</head>
+<body>
+    <main class="main">
+        <div class="auth" data-type="login">
+            <div class="auth-header">
+                <img class="auth-logo" src="/assets/img/logo1.png" alt="logo">
+                <h1 class="auth-title">Login</h1>
+                <p class="auth-subtitle">Por favor, preencha as informações abaixo.</p>
+            </div>
+            <p class="auth-other-error"></p>
+            <div class="auth-body">
+                
+                <div class="auth-field">
+                    <label for="username">Usuário</label>
+                    <input type="text" name="Username" class="auth-input" id="login" placeholder="Username"
+                           minlength="5"
+                           maxlength="99">
+                    <p class="auth-field-error"></p>
+                </div>
+                <div class="auth-field">
+                    <label for="password">Senha</label>
+                    <input type="password" name="Password" class="auth-input" id="senha" placeholder="Password"
+                           minlength="5"
+                           maxlength="99">
+                </div>
+                <button  class="auth-button button" id='botao' >Login</button>
+                <a class="auth-switch" href="/API/register/registrar.html">Não tem uma conta? <span>Register</span></a>
+            </div>
+        </div>
+    </main>
+            <script src="/assets/js/redirector.js"></script>
+<script src="/assets/js/app.min.js"></script>
+</body>
+</html>

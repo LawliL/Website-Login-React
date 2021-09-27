@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Top Security - Register</title>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+    <script src="/assets/js/jquery-visible.min.js"></script>
+    <script src="/assets/js/jquery-carousel.min.js"></script>
+</head>
+<body>
+    <form method="POST" action="registrar.php">
+    <main class="main">
+        <div class="auth" data-type="register">
+            <div class="auth-header">
+                <img class="auth-logo" src="/assets/img/logo.png" alt="Logo">
+                <h1 class="auth-title">Register</h1>
+                <p class="auth-subtitle">Por favor, preencha as informações abaixo.</p>
+            </div>
+            <p class="auth-other-error"></p>
+            <div class="auth-body">
+                
+                <div class="auth-field">
+                    <label for="username">Usuário</label>
+                    <input type="text" name="username" class="auth-input" id="username" placeholder="Username"
+                           minlength="5"
+                           maxlength="99">
+                    <p class="auth-field-error"></p>
+                </div>
+                <div class="auth-field">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" class="auth-input" id="password" placeholder="Password"
+                           minlength="5"
+                           maxlength="99">
+                    <p class="auth-field-error"></p>
+                </div>
+                <button  class="auth-button button" id="cadastrar">Register</button>
+                <a class="auth-switch" href="/API/login/login.html">Já tem uma conta? <span>Login</span></a>
+            </div>
+        </div>
+    </main>
+            <script src="/assets/js/auth.min.js"></script>
+<script src="/assets/js/app.min.js"></script>
+</body>
+</html>
